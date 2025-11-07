@@ -53,16 +53,18 @@ source myenv/bin/activate  # On Windows use `myenv\Scripts\activate`
 ### **3. Install dependencies**
 ```bash
 pip install -r requirements.txt
+``` 
 
-
-```### **4. Run the FastAPI backend**
-```bashuvicorn app.main:app --reload
+### **4. Run the FastAPI backend**
+```bash
+bashuvicorn app.main:app --reload
 ``` 
 
 ### **5. Run the Streamlit frontend**
 ```bash
-streamlit run app_streamlit.py  
+streamlit run app.py  
 ```
+
 ### **6.Backend Deployment**
 ```bash
 You can deploy the FastAPI backend on platforms like Render, Heroku, or AWS. Follow their specific deployment guides.
