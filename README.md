@@ -32,7 +32,7 @@ This project is a **Sentiment Analysis Web Application** that predicts the senti
 | Frontend   | Streamlit       |
 | Model      | scikit-learn / TensorFlow / PyTorch (depending on your model) |
 | Data       | CSV / JSON      |
-| Deployment | GitHub / Docker |
+| Deployment | GitHub / Render |
 
 ---
 
