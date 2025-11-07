@@ -1,6 +1,8 @@
+import os
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
+import uvicorn
 
 # Load model and vectorizer
 model = joblib.load("sentiment_model.pkl")
@@ -27,3 +29,7 @@ def predict_sentiment(data: TweetInput):
     
     sentiment = "Positive 😊" if prediction == 1 else "Negative 😠"
     return {"tweet": data.text, "sentiment": sentiment}
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
