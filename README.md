@@ -63,5 +63,9 @@ pip install -r requirements.txt
 ```bash
 streamlit run app_streamlit.py  
 ```
+### **6.Backend Deployment**
+You can deploy the FastAPI backend on platforms like Render, Heroku, or AWS. Follow their specific deployment guides.
 
+### **7. Run the application**
+Open your web browser and navigate to `https://ywcwavvnafycafgzcoccuw.streamlit.app/` to access the Streamlit frontend.
 
