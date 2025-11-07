@@ -70,6 +70,6 @@ You can deploy the FastAPI backend on platforms like Render, Heroku, or AWS. Fol
 
 ### **7. Run the application**
 ```bash
-Open your web browser and navigate to `https://ywcwavvnafycafgzcoccuw.streamlit.app/` to access the Streamlit frontend.
+Open your web browser and navigate to [Twitter Sentiment Analysis Frontend](https://ywcwavvnafycafgzcoccuw.streamlit.app/) to access the Streamlit frontend.
 ```
 
