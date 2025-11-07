@@ -3,7 +3,8 @@ import requests
 
 
 # FastAPI endpoint
-API_URL = "http://127.0.0.1:8000/predict"
+# API_URL = "http://127.0.0.1:8000/predict"
+API_URL="https://twitter-sentiment-analysis-3-07m6.onrender.com/predict"
 
 # Streamlit app title
 st.set_page_config(page_title="Twitter Sentiment Analysis", page_icon="💬", layout="centered")
