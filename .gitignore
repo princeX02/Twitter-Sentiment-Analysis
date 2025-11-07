@@ -169,8 +169,7 @@ dmypy.json
 
 <<<<<<< HEAD
 =======
-# Pickle files
-*.pkl
+
 
 >>>>>>> 1cc4215 (ALL)
 # pytype static type analyzer
