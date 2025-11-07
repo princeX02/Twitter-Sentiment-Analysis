@@ -139,7 +139,7 @@ celerybeat.pid
 # Environments
 <<<<<<< HEAD
 =======
-.data.csv
+data.csv
 myenv/
 >>>>>>> 1cc4215 (ALL)
 .env
